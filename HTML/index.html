@@ -6,9 +6,20 @@
         <link rel="stylesheet" href="/CSS/index.css">
     </head>
 <body>
-    <div class="trollface">
-        <img src="/IMAGES/trollface.png">
-        <h1 style="font-family: Comic Sans MS, cursive, sans-serif;font-size:75px;">POGGERS</h1>
+    <div class="dark_mode">
+        <button onclick="myFunction()">Dark Mode</button>
     </div>
+    <div class="trollface_start">
+        <div class="trollface">
+            <img src="/IMAGES/trollface.png">
+            <h1 id="text" style="font-family: Comic Sans MS, cursive, sans-serif;font-size:75px;">POGGERS</h1>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var element = document.body;
+        element.classList.toggle("dark-mode");
+        }
+    </script>
 </body>
 </html>
