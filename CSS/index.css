@@ -2,7 +2,7 @@
     text-align: center;
     position: absolute;
     animation-name: trollface;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 body {
@@ -37,4 +37,16 @@ body {
     position: absolute;
     left: 35%;
     top: 10%;
+}
+@keyframes buttoncolor {
+    from {background-color: black;}
+    to {background-color: white;}
+    from {color: white;}
+    to {color: black;}
+}
+.button {
+    background-color: white;
+    color: black;
+    animation-name: buttoncolor;
+    animation-duration: 2s;
 }

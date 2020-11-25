@@ -7,7 +7,7 @@
     </head>
 <body>
     <div class="dark_mode">
-        <button onclick="myFunction()">Dark Mode</button>
+        <button onclick="myFunction()" class="button_color">Dark Mode</button>
     </div>
     <div class="trollface_start">
         <div class="trollface">
@@ -19,6 +19,7 @@
         function myFunction() {
             var element = document.body;
         element.classList.toggle("dark-mode");
+        element.classList.toggle("button-color");
         }
     </script>
 </body>
