@@ -44,9 +44,3 @@ body {
     from {color: white;}
     to {color: black;}
 }
-.button {
-    background-color: white;
-    color: black;
-    animation-name: buttoncolor;
-    animation-duration: 2s;
-}
